@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&display=swap');
+
+body{
+    font-family: "Montserrat";
+}
+
+header,#main h4,#inp,#btn,footer,#table{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+#main h4{
+    font-size:22px
+}
+
+header{
+    padding-top: 4em;
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+#inp input{
+    border-radius: 0.4em;
+    width: 300px;
+    height: 50px;
+
+}
+
+#btn button{
+    font-size: 22px;
+    margin-top: 2em;
+    width: 100px;
+}
+    
+#main table{
+    border: 0.1cm solid blueviolet;
+    padding-left: 3;
+}
+
+#main table th{
+    font-size: 22px;
+    border: 0.1cm solid blueviolet;
+    padding: 0.5em;
+}
+#main table td{
+    border: 0.1cm solid blueviolet;
+    font-size: 22px;
+    padding:1em;
+}
+footer{
+    font-size: 20px;
+}
+
