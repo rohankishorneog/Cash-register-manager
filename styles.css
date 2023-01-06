@@ -4,7 +4,7 @@ body{
     font-family: "Montserrat";
 }
 
-header,#main h4,#inp,#btn,footer,#table{
+header,#main h4,#inp,#btn,#table{
     display: flex;
     justify-content: center;
     
@@ -57,4 +57,33 @@ footer{
     font-size: 22px;
     text-align: center;
     margin: 3em;
+}
+
+
+/*styling for footer*/
+
+.footer{
+    margin: 20rem 4rem 4rem 4rem
+}
+
+.footer-elements{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1{
+    font-size: 25px;
+}
+.footer h3{
+    font-size: 15px;
+}
+
+/*styling for logos*/
+
+.logo-div{
+    display: flex;
+}
+.logo-img{
+    width: 20px;
+    padding-left: 10px
 }
